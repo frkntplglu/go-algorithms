@@ -25,7 +25,7 @@ func pivotIndex(nums []int) int {
 }
 
 // More optimized solution
-func pivotIndex(nums []int) int {
+func pivotIndexOptimized(nums []int) int {
 	var total = 0
 	for i := range nums {
 		total += nums[i]
